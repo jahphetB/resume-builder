@@ -1,0 +1,39 @@
+.general-info {
+	position: relative;
+}
+
+.general-info__form {
+	width: 100%;
+}
+
+.general-info__name-field,
+.general-info__email-field,
+.general-info__phone-field {
+	width: 100%;
+}
+
+.general-info__name-input,
+.general-info__email-input,
+.general-info__phone-input {
+	min-height: 44px;
+}
+
+.general-info__display {
+	width: 100%;
+}
+
+.general-info__name-value {
+	color: #111827;
+	font-size: 1.35rem;
+	font-weight: 750;
+}
+
+.general-info__email-value,
+.general-info__phone-value {
+	overflow-wrap: anywhere;
+}
+
+.general-info__submit-button,
+.general-info__edit-button {
+	margin-top: 0.5rem;
+}

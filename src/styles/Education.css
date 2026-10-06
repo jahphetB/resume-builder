@@ -1,0 +1,49 @@
+.education {
+	position: relative;
+}
+
+.education__form {
+	width: 100%;
+}
+
+.education__school-field,
+.education__study-title-field,
+.education__study-date-field {
+	width: 100%;
+}
+
+.education__school-input,
+.education__study-title-input,
+.education__study-date-input {
+	min-height: 44px;
+}
+
+.education__display {
+	width: 100%;
+}
+
+.education__school-value {
+	color: #111827;
+	font-size: 1.15rem;
+	font-weight: 700;
+}
+
+.education__study-title-value {
+	color: #374151;
+	font-weight: 600;
+}
+
+.education__school-value,
+.education__study-title-value {
+	overflow-wrap: anywhere;
+}
+
+.education__study-date-value {
+	color: #6b7280;
+	font-size: 0.95rem;
+}
+
+.education__submit-button,
+.education__edit-button {
+	margin-top: 0.5rem;
+}

@@ -1,0 +1,65 @@
+.experience {
+	position: relative;
+}
+
+.experience__form {
+	width: 100%;
+}
+
+.experience__company-field,
+.experience__position-field,
+.experience__responsibilities-field,
+.experience__date-from-field,
+.experience__date-until-field {
+	width: 100%;
+}
+
+.experience__company-input,
+.experience__position-input,
+.experience__date-from-input,
+.experience__date-until-input {
+	min-height: 44px;
+}
+
+.experience__responsibilities-input {
+	min-height: 150px;
+}
+
+.experience__display {
+	width: 100%;
+}
+
+.experience__company-value {
+	color: #111827;
+	font-size: 1.15rem;
+	font-weight: 700;
+}
+
+.experience__position-value {
+	color: #374151;
+	font-weight: 650;
+}
+
+.experience__company-value,
+.experience__position-value {
+	overflow-wrap: anywhere;
+}
+
+.experience__responsibilities-value {
+	color: #4b5563;
+	line-height: 1.75;
+
+	white-space: pre-line;
+	overflow-wrap: anywhere;
+}
+
+.experience__date-from-value,
+.experience__date-until-value {
+	color: #6b7280;
+	font-size: 0.95rem;
+}
+
+.experience__submit-button,
+.experience__edit-button {
+	margin-top: 0.5rem;
+}
